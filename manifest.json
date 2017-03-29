@@ -3,16 +3,16 @@
   "name": "Ipsum Me!",
   "description": "Generate Lorem Ipsum text with a swift click!",
   "version": "0.1",
-
-  "permissions": ["activeTab", "contextMenus"],
-
+  "permissions": [
+      "activeTab", "contextMenus"
+  ],
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
     "128": "icon128.png"
   },
-
   "background": {
-    "scripts": ["ipsum.js"]
+      "persistent": false,
+      "scripts": ["ipsum.js"]
   }
 }
